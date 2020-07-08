@@ -1,0 +1,27 @@
+{
+  "name": "htmltopdf-batch-puppeteer",
+  "version": "0.0.1",
+  "description": "CLI tool to convert HTML documents to PDFs using puppeteer.",
+  "main": "index.js",
+  "bin": {
+    "htmltopdf-batch-puppeteer": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brokensandals/htmltopdf-batch-puppeteer.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "puppeteer"
+  ],
+  "author": "Jacob Williams <jacobaw@gmail.com> (https://brokensandals.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brokensandals/htmltopdf-batch-puppeteer/issues"
+  },
+  "homepage": "https://github.com/brokensandals/htmltopdf-batch-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^5.0.0"
+  }
+}
